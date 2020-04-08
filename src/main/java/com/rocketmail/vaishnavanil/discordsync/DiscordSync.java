@@ -15,7 +15,6 @@ import java.util.concurrent.ExecutionException;
 public class DiscordSync {
     public static void main(String[] args) throws IOException {
         String token = null,mode = null,ch = null,server = null;
-        args = new String[]{"-t", "MzUzMzkwMDcxMTI0MTk3Mzg2.Xoyg5w.h0EYniiFBjsZZwSb6nsI2ej9H3Q","-m","backup","-s","652375919327182849"};
         for(int i = 0 ; i<args.length;i++){
             switch (args[i]){
                 case "-t":
